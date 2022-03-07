@@ -17,5 +17,5 @@ class RestClientException implements Exception {
   });
 
   @override
-  String toString() => 'RestClientException(code: $code, message: $message)'''
+  String toString() => 'RestClientException(code: $code, message: $message)';
 }
