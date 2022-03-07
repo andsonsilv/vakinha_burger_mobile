@@ -40,7 +40,7 @@ class LoginPage extends StatelessWidget {
                       ),
                       const VakinhaTextformfield(label: TextsConstant.email),
                       const SizedBox(
-                        height: 30,
+                        height: 20,
                       ),
                       const VakinhaTextformfield(label: TextsConstant.senha),
                       const SizedBox(
@@ -59,7 +59,9 @@ class LoginPage extends StatelessWidget {
                         children: [
                           const Text(TextsConstant.naoPossuiUmaConta),
                           TextButton(
-                              onPressed: () {},
+                              onPressed: () {
+                                Get.toNamed('/auth/register');
+                              },
                               child: const Text(
                                 TextsConstant.cadastreSe,
                                 style: VakinhaUI.textBold,

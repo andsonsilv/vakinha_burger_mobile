@@ -38,7 +38,7 @@ class SplashPage extends StatelessWidget {
                   onPressed: (){
                     Get.toNamed('/auth/login');
                   },
-                  label: TextsConstant.acessar,
+                  label: TextsConstant.acessar.toUpperCase(),
                   width: context.widthTransformer(reducedBy: 40),
                   height: 35,
                 )
