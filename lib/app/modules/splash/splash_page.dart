@@ -35,7 +35,7 @@ class SplashPage extends StatelessWidget {
                   height: 60,
                 ),
                 VakinhaButton(
-                  onPressed: (){
+                  onPressed: () {
                     Get.toNamed('/auth/login');
                   },
                   label: TextsConstant.acessar.toUpperCase(),

@@ -24,4 +24,3 @@ class VakinhaBurgerMainApp extends StatelessWidget {
     );
   }
 }
-

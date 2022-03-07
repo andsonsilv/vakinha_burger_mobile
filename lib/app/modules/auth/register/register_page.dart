@@ -32,9 +32,9 @@ class RegisterPage extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.symmetric(vertical: 10.0),
                     child: Text(
-                        TextsConstant.preenchaOsCamposAbaixoParaCriarSeuCadastro,
-                        style: context.textTheme.bodyText1,
-                      ),
+                      TextsConstant.preenchaOsCamposAbaixoParaCriarSeuCadastro,
+                      style: context.textTheme.bodyText1,
+                    ),
                   ),
                   const SizedBox(
                     height: 10,
@@ -51,7 +51,8 @@ class RegisterPage extends StatelessWidget {
                   const SizedBox(
                     height: 20,
                   ),
-                  const VakinhaTextformfield(label: TextsConstant.confirmaSenha),
+                  const VakinhaTextformfield(
+                      label: TextsConstant.confirmaSenha),
                   const SizedBox(
                     height: 30,
                   ),
