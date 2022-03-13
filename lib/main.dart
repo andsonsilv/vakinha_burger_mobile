@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:vakinha_burger_mobile/app/core/bindings/application_bindings.dart';
 import 'package:vakinha_burger_mobile/app/core/common/constants/texts_constant.dart';
 import 'package:vakinha_burger_mobile/app/core/ui/vakinha_ui.dart';
 import 'package:vakinha_burger_mobile/app/routes/auth_routers.dart';
@@ -17,6 +18,7 @@ class VakinhaBurgerMainApp extends StatelessWidget {
     return GetMaterialApp(
       title: TextsConstant.vakinhaBurger,
       theme: VakinhaUI.theme,
+      initialBinding: ApplicationBindings(),
       getPages: [
         ...SplashRouters.routers,
         ...AuthRouters.routers,
